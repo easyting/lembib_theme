@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'Soho Gothic W01 Light';
+  src: url('../fonts/cf0c19e1-bbc5-47a0-9a31-9c85f4a93401.eot');
+  src: url('../fonts/cf0c19e1-bbc5-47a0-9a31-9c85f4a93401.eot?iefix') format('embedded-opentype'),
+    url('../fonts/d4fbadb6-703e-49d0-a195-84c39f891657.woff') format('woff'),
+    url('../fonts/073a86b5-49df-4c95-8627-7c1e97ceb661.ttf') format('truetype'),
+    url('../fonts/b30758e0-7935-4267-80e6-3686573ffad0.svg#b30758e0-7935-4267-80e6-3686573ffad0') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Soho Gothic W01 Regular';
+  src: url('../fonts/f46906bf-4fa9-4064-9d0a-7f3cad793af1.eot');
+  src: url('../fonts/f46906bf-4fa9-4064-9d0a-7f3cad793af1.eotiefix') format('embedded-opentype'),
+    url('../fonts/16716e40-a794-41a1-b88a-0f7df4fc7a19.woff') format('woff'),
+    url('../fonts/c8f99b13-5b74-40ec-9f8c-ed3f7e79894c.ttf') format('truetype'),
+    url('../fonts/d51c088b-5562-4fcd-9b90-fdd878a7845e.svg#d51c088b-5562-4fcd-9b90-fdd878a7845e') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Soho Gothic W01 Bold';
+  src: url('../fonts/ebde5cb0-b480-4ad1-9aff-7e9e103ea7c4.eot1.eot');
+  src: url('../fonts/ebde5cb0-b480-4ad1-9aff-7e9e103ea7c4.eot.eotiefix') format('embedded-opentype'),
+    url('../fonts/dbdf858a-b51c-45fd-8551-ec94798d66f2.woff') format('woff'),
+    url('../fonts/0ebe822a-9f3a-44dc-a4e2-8d039563f8ac.ttf') format('truetype'),
+    url('../fonts/6b15af3f-0369-44a4-a538-8019af845355.svg#6b15af3f-0369-44a4-a538-8019af845355') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
