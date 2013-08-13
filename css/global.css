@@ -473,3 +473,9 @@ ul.ui-autocomplete,
 .responsive-layout-mobile .ding_nodelist-carousel .pagination .selected {
   background-position: -160px 0;
 }
+
+.ui-dialog .field-name-ting-author a,
+.ui-dialog .field-name-ting-author a:link,
+.ui-dialog .reservation-link-ajax a {
+  color: #000;
+}
