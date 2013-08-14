@@ -403,7 +403,8 @@ ul.ui-autocomplete,
 .pane-page-tabs.search-results-tabs ul.primary li a.active:hover,
 .pane-ding-facetbrowser .form-wrapper legend.active span,
 .pane-page-tabs ul.primary li a:hover,
-.ui-tabs-nav li.active {
+.ui-tabs-nav li.active,
+.pane-page-tabs ul.primary li a:hover {
   background-color: #b22377;
 }
 
@@ -522,4 +523,10 @@ ul.ui-autocomplete,
 .reservation-link-ajax a:link,
 .reservation-link-ajax a:visited {
   color: #c39b16;
+}
+
+.ui-dialog .field-name-ting-author a,
+.ui-dialog .field-name-ting-author a:link,
+.ui-dialog .reservation-link-ajax a {
+  color: #000;
 }
