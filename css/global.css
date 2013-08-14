@@ -29,7 +29,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.7em;
+  font-size: 1.1em;
 }
 
 h4 {
@@ -248,19 +248,19 @@ footer .block-menu li a:visited {
 @media all and (max-width: 740px) {
   #zone-header {
     width: auto;
-  };
+  }
 }
 
 @media all and (min-width: 740px) and (max-width: 980px) {
   #zone-header {
     width: 700px;
-  };
+  }
 }
 
 @media screen and (min-width: 980px) and (max-width: 1200px) {
   #zone-header {
     width: 940px;
-  };
+  }
 }
 
 .responsive-layout-mobile #zone-header-wrapper #zone-header a {
@@ -402,6 +402,8 @@ ul.ui-autocomplete,
 .search-results-tabs ul.primary li.active a.active,
 .pane-page-tabs.search-results-tabs ul.primary li a.active:hover,
 .pane-ding-facetbrowser .form-wrapper legend.active span,
+.pane-page-tabs ul.primary li a:hover,
+.ui-tabs-nav li.active,
 .pane-page-tabs ul.primary li a:hover {
   background-color: #b22377;
 }
@@ -474,8 +476,65 @@ ul.ui-autocomplete,
   background-position: -160px 0;
 }
 
+/* Today opening hours */
+.pane-ding-library-opening-hours-ding-library-opened-today,
+.pane-ding-library-opening-hours-ding-library-opening-hours,
+.pane-opening-hours-week {
+  background: #b22377;
+}
+
+.pane-ding-library-opening-hours-ding-library-opened-today .name a:link,
+.pane-ding-library-opening-hours-ding-library-opened-today .name a:visited,
+.ding-library-opened-today .library .hours,
+.ding-library-opening-hours .day .hours,
+.pane-ding-library-opening-hours-ding-library-opened-today .pane-title {
+  color: #fff;
+}
+
+.ui-tabs-nav li.active a {
+  background-image: url(../images/icons/carousel-arrow.png);
+}
+
+.ui-tabs-nav {
+  background-color: #c39b16;
+}
+
+.ui-tabs-nav li a:hover {
+  color: #c1e5e3;
+}
+
+.page-taxonomy-term .view-taxonomy-term .item-list .pager-next a,
+.page-taxonomy-term .view-taxonomy-term .item-list .pager-last a,
+.page-taxonomy-term .view-taxonomy-term .item-list .pager-previous a,
+.page-taxonomy-term .view-taxonomy-term .item-list .pager-first a,
+.page-search-node .pane-ding-node-search .item-list .pager-next a,
+.page-search-node .pane-ding-node-search .item-list .pager-last a,
+.page-search-node .pane-ding-node-search .item-list .pager-previous a,
+.page-search-node .pane-ding-node-search .item-list .pager-first a,
+.page-taxonomy-term .view-taxonomy-term .item-list .pager-current,
+.page-search-node .pane-ding-node-search .item-list .pager-current {
+  color: #c39b16;
+}
+
+.view-taxonomy-term .alphabase-pager {
+  display: none;
+}
+
+.reservation-link-ajax a:link,
+.reservation-link-ajax a:visited {
+  color: #c39b16;
+}
+
 .ui-dialog .field-name-ting-author a,
 .ui-dialog .field-name-ting-author a:link,
 .ui-dialog .reservation-link-ajax a {
   color: #000;
+}
+
+.ui-widget .form-submit {
+  color: #c39b16;
+}
+
+.ding_nodelist-slider .item .more a {
+  color: #c39b16;
 }
