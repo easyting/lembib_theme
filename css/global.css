@@ -29,7 +29,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.7em;
+  font-size: 1.1em;
 }
 
 h4 {
@@ -529,4 +529,12 @@ ul.ui-autocomplete,
 .ui-dialog .field-name-ting-author a:link,
 .ui-dialog .reservation-link-ajax a {
   color: #000;
+}
+
+.ui-widget .form-submit {
+  color: #c39b16;
+}
+
+.ding_nodelist-slider .item .more a {
+  color: #c39b16;
 }
