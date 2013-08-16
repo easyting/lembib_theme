@@ -1,7 +1,12 @@
 /* Main settings
 ===================================*/
+html, body {
+  height: 100%;
+}
+
 body {
   color: #000;
+  background: #ece9dd;
 }
 
 h1 {
@@ -257,7 +262,7 @@ footer .block-menu li a:visited {
   }
 }
 
-@media screen and (min-width: 980px) and (max-width: 1200px) {
+@media screen and (min-width: 980px) and (max-width: 1220px) {
   #zone-header {
     width: 940px;
   }
@@ -346,6 +351,7 @@ ul.ui-autocomplete,
 
 .secondary-menu-expand {
   background-image: url(../images/icons/secondary-menu-icon.png);
+  top: 70px;
 }
 
 .user-menu-expand {
@@ -362,6 +368,7 @@ ul.ui-autocomplete,
 
 .region-header-second-inner {
   background: #b22377;
+  top: 105px;
 }
 
 .region-header-second-inner a {
@@ -481,6 +488,23 @@ ul.ui-autocomplete,
 .pane-ding-library-opening-hours-ding-library-opening-hours,
 .pane-opening-hours-week {
   background: #b22377;
+  color: #fff;
+}
+
+.pane-ding-library-opening-hours-ding-library-opened-today .hours,
+.pane-ding-library-opening-hours-ding-library-opening-hours .hours,
+.pane-opening-hours-week .times,
+.pane-aggregator-feed .more-link,
+.pane-opening-hours-week .pane-title,
+.opening-hours-week .header {
+  color: #fff;
+}
+
+.page-libraries .pane-ding-library .title,
+.page-libraries .pane-ding-library .title a,
+.node-type-ding-library .library-teaser .title,
+.node-type-ding-library .library-teaser .title a {
+  color: #c39b16;
 }
 
 .pane-ding-library-opening-hours-ding-library-opened-today .name a:link,
