@@ -183,7 +183,6 @@ footer .block-menu li a:visited {
 
 .block-ding-username h2,
 .block-user-login .block-title,
-.page-ting-object .expand-relations,
 .page-ting-object .expand-object-properties,
 .pane-node-comments .expand-arrow,
 .pane-aggregator-feed li {
@@ -250,13 +249,18 @@ footer .block-menu li a:visited {
   width: 1180px;
 }
 
-@media all and (max-width: 740px) {
+@media screen and (max-width: 740px) {
   #zone-header {
     width: auto;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
 
-@media all and (min-width: 740px) and (max-width: 980px) {
+@media screen and (min-width: 740px) and (max-width: 980px) {
   #zone-header {
     width: 700px;
   }
@@ -385,6 +389,7 @@ ul.ui-autocomplete,
 
 .responsive-layout-mobile .sidebar-menu-expand {
   background-color: #c39b16;
+  overflow: hidden;
 }
 
 /* Content
@@ -527,6 +532,10 @@ ul.ui-autocomplete,
   color: #c1e5e3;
 }
 
+.node-type-ding-news .news-short-info .views-field-field-editorial-base-n a {
+  background-color: #b22377;
+}
+
 .page-taxonomy-term .view-taxonomy-term .item-list .pager-next a,
 .page-taxonomy-term .view-taxonomy-term .item-list .pager-last a,
 .page-taxonomy-term .view-taxonomy-term .item-list .pager-previous a,
@@ -555,10 +564,24 @@ ul.ui-autocomplete,
   color: #000;
 }
 
-.ui-widget .form-submit {
+.ui-widget .form-submit,
+.ding_nodelist-slider .item .more a,
+.node-type-ding-library .pane-ding-event .title a,
+.node-type-ding-library .pane-ding-news .title a,
+.pane-ting-object-ting-reference-reverse .node-title a {
   color: #c39b16;
 }
 
-.ding_nodelist-slider .item .more a {
+.browsebar-inner .properties-wrapper .genre a,
+.browsebar-inner .properties-wrapper .reviews,
+.browsebar-inner .active-more-info {
   color: #c39b16;
+}
+
+.page-ting-object .field-type-ting-subjects .active,
+.page-ting-object .field-type-ting-subjects .subject:hover,
+.page-ting-collection .field-type-ting-subjects .active,
+.page-ting-collection .field-type-ting-subjects .subject:hover,
+.pane-ting-object-voxb-tags .tag a:hover {
+  background-color: #c39b16;
 }
