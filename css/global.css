@@ -138,7 +138,9 @@ input[type="color"]:focus,
 .ding_nodelist-taxonomy .item-details .item-author,
 .edit-user-profile .form-submit,
 .pane-emailkanon-emailkanon-subscribe-block .form-submit,
-.ding_nodelist-single .ding_nodelist-items .more a {
+.ding_nodelist-single .ding_nodelist-items .more a,
+.ting-search-carousel .ting-search-results .info,
+.ting-search-carousel .ting-search-results .info span {
   color: #c39b16;
 }
 
@@ -223,7 +225,8 @@ footer .block-menu li a:visited {
 .node-type-ding-event .event-short-info .views-field-field-category a,
 .node-type-ding-event .event-short-info .views-field-field-event-date .field-content,
 .node-type-ding-event .event-short-info .views-field-field-event-fee,
-.node-type-ding-event .event-short-info .views-field-group-audience a {
+.node-type-ding-event .event-short-info .views-field-group-audience a,
+.ting-search-carousel .search-controller li.active a {
   background: #b22377;
 }
 
@@ -336,10 +339,6 @@ ul.ui-autocomplete,
 .block-search-form form .extendsearch-advanced .form-item input:active,
 .block-search-form form .extendsearch-advanced .form-item input:focus {
   border: 1px solid #c39b16;
-}
-
-.block-ding-username h2 {
-  background: url(../images/arrow.png) 10px 20px no-repeat;
 }
 
 .block-system-user-menu,
