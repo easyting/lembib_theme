@@ -85,6 +85,16 @@ input[type="color"]:focus,
   background: #b22377;
 }
 
+.block-user-login,
+.block-ding-user-frontend {
+  min-height: 79px;
+}
+
+.responsive-layout-mobile .block-ding-username h2,
+.responsive-layout-mobile .block-user-login .block-title {
+  min-height: 35px;
+}
+
 /* Colors */
 .page-ting.responsive-layout-mobile .field-type-ding-entity-buttons .ding-entity-button a,
 .page-ting-collection.responsive-layout-mobile .field-type-ding-entity-buttons .reservation-link-ajax a,
