@@ -95,6 +95,16 @@ input[type="color"]:focus,
   min-height: 35px;
 }
 
+.block-ding-user-loan-number,
+.block-ding-user-loan-number > .block-inner > .content {
+  background-color: #b22377;
+}
+
+.responsive-layout-mobile .block-ding-user-loan-number,
+.responsive-layout-mobile .block-system-user-menu {
+  right: 0;
+}
+
 /* Colors */
 .page-ting.responsive-layout-mobile .field-type-ding-entity-buttons .ding-entity-button a,
 .page-ting-collection.responsive-layout-mobile .field-type-ding-entity-buttons .reservation-link-ajax a,
