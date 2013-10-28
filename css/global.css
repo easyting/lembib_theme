@@ -172,7 +172,8 @@ ul.ui-autocomplete {
 .pane-ding-library-ding-sidebar-menu ul li.expanded ul li a,
 .pane-menu-tree ul li.expanded ul li a,
 footer .block-menu li a:link,
-footer .block-menu li a:visited {
+footer .block-menu li a:visited,
+.ding_nodelist-slider .legend span a {
   color: #c39b16;
 }
 
@@ -236,7 +237,10 @@ footer .block-menu li a:visited {
 .node-type-ding-event .event-short-info .views-field-field-event-date .field-content,
 .node-type-ding-event .event-short-info .views-field-field-event-fee,
 .node-type-ding-event .event-short-info .views-field-group-audience a,
-.ting-search-carousel .search-controller li.active a {
+.ting-search-carousel .search-controller li.active a,
+.node-type-ding-event .event-short-info .views-field-group-audience .field-content,
+.field-type-ding-item-list-field .ding-item-list-title,
+.panels-ipe-portlet-content .pane-title {
   background: #b22377;
 }
 
