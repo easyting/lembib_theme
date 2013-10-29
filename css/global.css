@@ -132,6 +132,7 @@ input[type="color"]:focus,
   background: #c39b16;
 }
 
+.page-user .user-page-tabs ul.primary > li.active a + ul a,
 .page-search-ting .item-list .pager-next a,
 .page-search-ting .item-list .pager-last a,
 .page-search-ting .item-list .pager-previous a,
@@ -407,6 +408,7 @@ ul.ui-autocomplete,
 
 /* Content
 ===================================*/
+.page-user .user-page-tabs ul.primary > li > a,
 .pane-system-main-menu ul li a,
 .pane-category-menu ul li a,
 .pane-ding-library-ding-sidebar-menu ul li a,
@@ -420,6 +422,8 @@ ul.ui-autocomplete,
   background-color: #c39b16;
 }
 
+.secondary-tabs ul.secondary a.active,
+.page-user .user-page-tabs ul.primary > li.active > a,
 .pane-category-menu ul li a.active,
 .pane-system-main-menu ul li a.active,
 .pane-ding-library-ding-sidebar-menu ul li a.active,
