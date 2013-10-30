@@ -72,6 +72,14 @@ input[type="color"]:focus,
   background: #ece9dd;
 }
 
+.zone-user {
+  margin-top: 10px;
+}
+
+.responsive-layout-mobile #zone-menu-wrapper {
+  margin-top: 0;
+}
+
 /* Login, reserve, bookmark pop-up */
 .ui-dialog {
   background: #c39b16;
@@ -80,9 +88,19 @@ input[type="color"]:focus,
 /* Login block */
 .block-user-menu,
 .block-ding-username,
+.block-ding-user-loan-number,
 .block-user-login,
 .block-user-login .block-inner .content {
   background: #b22377;
+}
+
+.block-ding-user-loan-number,
+.block-system-user-menu {
+  right: 0;
+}
+
+.block-ding-user-loan-number > .block-inner > .content {
+  background: none;
 }
 
 .block-user-login,
