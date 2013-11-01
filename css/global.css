@@ -41,6 +41,7 @@ h4 {
   font-size: 1.5em;
 }
 
+.pane-category-menu-fold .more-link a,
 a:link, a:visited {
   color: #c39b16;
 }
@@ -430,6 +431,7 @@ ul.ui-autocomplete,
 
 /* Content
 ===================================*/
+.pane-category-menu-fold .item-list > ul > li > a,
 .page-user .user-page-tabs ul.primary > li > a,
 .pane-system-main-menu ul li a,
 .pane-category-menu ul li a,
@@ -444,6 +446,7 @@ ul.ui-autocomplete,
   background-color: #c39b16;
 }
 
+.pane-category-menu-fold .item-list > ul > li > a.active,
 .secondary-tabs ul.secondary a.active,
 .page-user .user-page-tabs ul.primary > li.active > a,
 .pane-category-menu ul li a.active,
