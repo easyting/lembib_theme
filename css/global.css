@@ -170,7 +170,8 @@ input[type="color"]:focus,
 .pane-emailkanon-emailkanon-subscribe-block .form-submit,
 .ding_nodelist-single .ding_nodelist-items .more a,
 .ting-search-carousel .ting-search-results .info,
-.ting-search-carousel .ting-search-results .info span {
+.ting-search-carousel .ting-search-results .info span,
+.block-search-form form .extendsearch-advanced .fieldset-wrapper label {
   color: #c39b16;
 }
 
@@ -360,6 +361,7 @@ footer .block-menu li a:visited,
 .block-search-form form .ui-autocomplete-input,
 .block-search-form form input[name="search_block_form"],
 #edit-advanced-search .fieldset-wrapper input,
+#edit-advanced-search .fieldset-wrapper select,
 ul.ui-autocomplete,
 .no-js .block-search-form form .form-item input[type="text"] {
   background: #fff;
@@ -372,7 +374,9 @@ ul.ui-autocomplete,
 }
 
 .block-search-form form .extendsearch-advanced .form-item input:active,
-.block-search-form form .extendsearch-advanced .form-item input:focus {
+.block-search-form form .extendsearch-advanced .form-item input:focus,
+.block-search-form form .extendsearch-advanced .form-item select:active,
+.block-search-form form .extendsearch-advanced .form-item select:focus {
   border: 1px solid #c39b16;
 }
 
