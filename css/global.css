@@ -641,3 +641,15 @@ ul.ui-autocomplete,
 .responsive-layout-normal .block-search-form form .extendsearch-advanced .fieldset-wrapper select {
   width: 60%;
 }
+
+.responsive-layout-wide .block-search-form form .extendsearch-advanced .fieldset-wrapper .single-line label,
+.responsive-layout-normal .block-search-form form .extendsearch-advanced .fieldset-wrapper .single-line label {
+  width: 15%;
+}
+
+.responsive-layout-wide .block-search-form form .extendsearch-advanced .fieldset-wrapper .single-line input,
+.responsive-layout-normal .block-search-form form .extendsearch-advanced .fieldset-wrapper .single-line select,
+.responsive-layout-normal .block-search-form form .extendsearch-advanced .fieldset-wrapper .single-line input,
+.responsive-layout-normal .block-search-form form .extendsearch-advanced .fieldset-wrapper .single-line select {
+  width: 85%;
+}
