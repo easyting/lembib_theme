@@ -364,7 +364,7 @@ footer .block-menu li a:visited,
 #edit-advanced-search .fieldset-wrapper select,
 ul.ui-autocomplete,
 .no-js .block-search-form form .form-item input[type="text"] {
-  background: #fff;
+  background-color: #fff;
 }
 
 .block-search-form form .extendsearch-advanced input[type=text],
@@ -631,4 +631,13 @@ ul.ui-autocomplete,
 .page-ting-collection .field-type-ting-subjects .subject:hover,
 .pane-ting-object-voxb-tags .tag a:hover {
   background-color: #c39b16;
+}
+
+.responsive-layout-normal .block-search-form form .extendsearch-advanced .fieldset-wrapper label {
+  width: 40%;
+}
+
+.responsive-layout-normal .block-search-form form .extendsearch-advanced .fieldset-wrapper input,
+.responsive-layout-normal .block-search-form form .extendsearch-advanced .fieldset-wrapper select {
+  width: 60%;
 }
