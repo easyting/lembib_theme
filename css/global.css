@@ -41,6 +41,7 @@ h4 {
   font-size: 1.5em;
 }
 
+.pane-category-menu-fold .more-link a,
 a:link, a:visited {
   color: #c39b16;
 }
@@ -72,6 +73,14 @@ input[type="color"]:focus,
   background: #ece9dd;
 }
 
+.zone-user {
+  margin-top: 10px;
+}
+
+.responsive-layout-mobile #zone-menu-wrapper {
+  margin-top: 0;
+}
+
 /* Login, reserve, bookmark pop-up */
 .ui-dialog {
   background: #c39b16;
@@ -80,9 +89,19 @@ input[type="color"]:focus,
 /* Login block */
 .block-user-menu,
 .block-ding-username,
+.block-ding-user-loan-number,
 .block-user-login,
 .block-user-login .block-inner .content {
   background: #b22377;
+}
+
+.block-ding-user-loan-number,
+.block-system-user-menu {
+  right: 0;
+}
+
+.block-ding-user-loan-number > .block-inner > .content {
+  background: none;
 }
 
 .block-user-login,
@@ -132,6 +151,7 @@ input[type="color"]:focus,
   background: #c39b16;
 }
 
+.page-user .user-page-tabs ul.primary > li.active a + ul a,
 .page-search-ting .item-list .pager-next a,
 .page-search-ting .item-list .pager-last a,
 .page-search-ting .item-list .pager-previous a,
@@ -150,7 +170,8 @@ input[type="color"]:focus,
 .pane-emailkanon-emailkanon-subscribe-block .form-submit,
 .ding_nodelist-single .ding_nodelist-items .more a,
 .ting-search-carousel .ting-search-results .info,
-.ting-search-carousel .ting-search-results .info span {
+.ting-search-carousel .ting-search-results .info span,
+.block-search-form form .extendsearch-advanced .fieldset-wrapper label {
   color: #c39b16;
 }
 
@@ -172,7 +193,8 @@ ul.ui-autocomplete {
 .pane-ding-library-ding-sidebar-menu ul li.expanded ul li a,
 .pane-menu-tree ul li.expanded ul li a,
 footer .block-menu li a:link,
-footer .block-menu li a:visited {
+footer .block-menu li a:visited,
+.ding_nodelist-slider .legend span a {
   color: #c39b16;
 }
 
@@ -229,6 +251,7 @@ footer .block-menu li a:visited {
   background-image: url(../images/icons/vert-slider-sprite-mobile.png);
 }
 
+.pane-ding-item-list-recommendations .pane-title,
 .node-type-ding-event .content-event-day .pane-title,
 .node-type-ding-event .content-event-day .term-title,
 .ding_nodelist-vertical_accordion .event-label,
@@ -236,7 +259,10 @@ footer .block-menu li a:visited {
 .node-type-ding-event .event-short-info .views-field-field-event-date .field-content,
 .node-type-ding-event .event-short-info .views-field-field-event-fee,
 .node-type-ding-event .event-short-info .views-field-group-audience a,
-.ting-search-carousel .search-controller li.active a {
+.ting-search-carousel .search-controller li.active a,
+.node-type-ding-event .event-short-info .views-field-group-audience .field-content,
+.field-type-ding-item-list-field .ding-item-list-title,
+.panels-ipe-portlet-content .pane-title {
   background: #b22377;
 }
 
@@ -335,9 +361,10 @@ footer .block-menu li a:visited {
 .block-search-form form .ui-autocomplete-input,
 .block-search-form form input[name="search_block_form"],
 #edit-advanced-search .fieldset-wrapper input,
+#edit-advanced-search .fieldset-wrapper select,
 ul.ui-autocomplete,
 .no-js .block-search-form form .form-item input[type="text"] {
-  background: #fff;
+  background-color: #fff;
 }
 
 .block-search-form form .extendsearch-advanced input[type=text],
@@ -347,7 +374,9 @@ ul.ui-autocomplete,
 }
 
 .block-search-form form .extendsearch-advanced .form-item input:active,
-.block-search-form form .extendsearch-advanced .form-item input:focus {
+.block-search-form form .extendsearch-advanced .form-item input:focus,
+.block-search-form form .extendsearch-advanced .form-item select:active,
+.block-search-form form .extendsearch-advanced .form-item select:focus {
   border: 1px solid #c39b16;
 }
 
@@ -407,6 +436,8 @@ ul.ui-autocomplete,
 
 /* Content
 ===================================*/
+.pane-category-menu-fold .item-list > ul > li > a,
+.page-user .user-page-tabs ul.primary > li > a,
 .pane-system-main-menu ul li a,
 .pane-category-menu ul li a,
 .pane-ding-library-ding-sidebar-menu ul li a,
@@ -420,6 +451,9 @@ ul.ui-autocomplete,
   background-color: #c39b16;
 }
 
+.pane-category-menu-fold .item-list > ul > li > a.active,
+.secondary-tabs ul.secondary a.active,
+.page-user .user-page-tabs ul.primary > li.active > a,
 .pane-category-menu ul li a.active,
 .pane-system-main-menu ul li a.active,
 .pane-ding-library-ding-sidebar-menu ul li a.active,
@@ -597,4 +631,25 @@ ul.ui-autocomplete,
 .page-ting-collection .field-type-ting-subjects .subject:hover,
 .pane-ting-object-voxb-tags .tag a:hover {
   background-color: #c39b16;
+}
+
+.responsive-layout-normal .block-search-form form .extendsearch-advanced .fieldset-wrapper label {
+  width: 40%;
+}
+
+.responsive-layout-normal .block-search-form form .extendsearch-advanced .fieldset-wrapper input,
+.responsive-layout-normal .block-search-form form .extendsearch-advanced .fieldset-wrapper select {
+  width: 60%;
+}
+
+.responsive-layout-wide .block-search-form form .extendsearch-advanced .fieldset-wrapper .single-line label,
+.responsive-layout-normal .block-search-form form .extendsearch-advanced .fieldset-wrapper .single-line label {
+  width: 15%;
+}
+
+.responsive-layout-wide .block-search-form form .extendsearch-advanced .fieldset-wrapper .single-line input,
+.responsive-layout-normal .block-search-form form .extendsearch-advanced .fieldset-wrapper .single-line select,
+.responsive-layout-normal .block-search-form form .extendsearch-advanced .fieldset-wrapper .single-line input,
+.responsive-layout-normal .block-search-form form .extendsearch-advanced .fieldset-wrapper .single-line select {
+  width: 85%;
 }
