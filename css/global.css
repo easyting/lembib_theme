@@ -251,6 +251,9 @@ footer .block-menu li a:visited,
   background-image: url(../images/icons/vert-slider-sprite-mobile.png);
 }
 
+.views-field-field-address .street-block,
+.views-field-field-address .addressfield-container-inline,
+.views-field-field-address .country,
 .pane-ding-item-list-recommendations .pane-title,
 .node-type-ding-event .content-event-day .pane-title,
 .node-type-ding-event .content-event-day .term-title,
