@@ -251,6 +251,9 @@ footer .block-menu li a:visited,
   background-image: url(../images/icons/vert-slider-sprite-mobile.png);
 }
 
+.views-field-field-address .street-block,
+.views-field-field-address .addressfield-container-inline,
+.views-field-field-address .country,
 .pane-ding-item-list-recommendations .pane-title,
 .node-type-ding-event .content-event-day .pane-title,
 .node-type-ding-event .content-event-day .term-title,
@@ -508,6 +511,7 @@ ul.ui-autocomplete,
   color: #c39b16;
 }
 
+.pane-ding-item-viewer-item-viewer .field-type-ting-subjects .subject:hover,
 .pane-search-result .ding-format-long .field-type-ting-subjects .subject:hover,
 .pane-search-result .ding-format-long .field-type-ting-subjects .active {
   background: #c39b16;
