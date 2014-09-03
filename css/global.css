@@ -615,12 +615,15 @@ ul.ui-autocomplete,
   color: #000;
 }
 
-.ui-widget .form-submit,
 .ding_nodelist-slider .item .more a,
 .node-type-ding-library .pane-ding-event .title a,
 .node-type-ding-library .pane-ding-news .title a,
 .pane-ting-object-ting-reference-reverse .node-title a {
   color: #c39b16;
+}
+
+.ui-widget .form-submit {
+  color: #fff;
 }
 
 .browsebar-inner .properties-wrapper .genre a,
