@@ -44,4 +44,19 @@ function lembib_theme_alpha_preprocess_html(&$vars) {
       'group' => 2000,
     )
   );
+
+  drupal_add_js(
+    array(
+     'pathToTheme' => '/' . drupal_get_path('theme', 'lembib_theme'),
+     'every_page' => TRUE,
+     'scope' => 'header',
+     'weight' => -19.95,
+    ), 'setting'
+  );
+
+  drupal_add_js(drupal_get_path('theme', 'lembib_theme') . '/js/webtrends.load.js',
+    array(
+      'scope' => 'footer',
+    )
+  );
 }
