@@ -171,8 +171,12 @@ input[type="color"]:focus,
 .ding_nodelist-single .ding_nodelist-items .more a,
 .ting-search-carousel .ting-search-results .info,
 .ting-search-carousel .ting-search-results .info span,
-.block-search-form form .extendsearch-advanced .fieldset-wrapper label {
+.block-search-form form .extendsearch-advanced .fieldset-wrapper label,
+.ding-periodical-fold:hover,
+.ding-periodical-fold,
+.ding-periodical-foldable .item-list ul.ding-periodical-foldable li {
   color: #c39b16;
+  text-shadow: none;
 }
 
 /* Search autocomplete background color */
@@ -660,3 +664,16 @@ ul.ui-autocomplete,
 .responsive-layout-normal .block-search-form form .extendsearch-advanced .fieldset-wrapper .single-line select {
   width: 85%;
 }
+
+.page-ting-object .materials {
+  display: block !important;
+}
+
+.page-ting-object .expand-object-properties {
+  display: none;
+}
+
+.ding-periodical-foldable:hover {
+  background-image: url(../images/arrow-right-active.png);
+}
+
